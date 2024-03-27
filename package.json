@@ -1,0 +1,17 @@
+{
+  "name": "craigscraper-js",
+  "version": "1.0.0",
+  "description": "A simple web scraper that aggregates Craigslist post data from a 'for sale' search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Benedict Kioko <benedictmkioko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
