@@ -1,1 +1,1 @@
-console.log("This is the Craigslist JS web scraper");
+(()=>{"use strict";let s;(async()=>{s=await fetch("https://worcester.craigslist.org/search/sss#search=1~list~0~0").then((s=>s.text())).then((s=>s)).catch((s=>console.log("Failed page fetch: "+s)))})();const e=s;console.log("This is the Craigslist JS web scraper"),console.log(e)})();
